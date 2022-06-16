@@ -16,7 +16,7 @@ list[0].parentNode.insertBefore(item2, list[0]);
 // ADD A CLASS OF COOL TO ALL LIST ITEMS
 
 for (var i = 0; i < list.length; i++) {
-    list[i].className = 'cool';
+    list[i].classList.add('cool');
 }
 
 // ADD NUMBER OF ITEMS IN THE LIST TO THE HEADING
