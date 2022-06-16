@@ -1,4 +1,3 @@
-const page = document.getElementById('page');
 const list = document.getElementsByTagName('li');
 
 // ADD NEW ITEM TO END OF LIST
@@ -27,4 +26,3 @@ items_count.appendChild(document.createTextNode(list.length));
 
 const header = document.getElementsByTagName('h2');
 header[0].appendChild(items_count);
-// items_count.innerHTML()
